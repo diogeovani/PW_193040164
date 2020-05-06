@@ -1,7 +1,7 @@
 <?php
 require 'functions.php';
 $id = $_GET['Id'];
-$hp = query("SELECT * FROM daftar_handphone WHERE Id = $id")[0];
+$hp = query("SELECT * FROM monitor WHERE Id = $id")[0];
 if (isset($_POST['ubah'])) {
   if (ubah($_POST) > 0) {
     echo "<script>
