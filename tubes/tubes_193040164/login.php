@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login System</title>
+  <title>Login </title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -88,10 +88,12 @@ if (isset($_POST['login'])) {
         ?>
 
         <form role="form" action="" method="post">
-          <div class="form-group"><label for="username">Username</label>
+          <div class="form-group">
+            <label for="username">Username</label>
             <input type="text" name="username" class="form-control" placeholder="Username" required autofocus />
           </div>
           <div class="form-group">
+            <label for="password">Password</label>
             <input type="password" name="password" class="form-control" placeholder="Password" required autofocus />
           </div>
           <div class="form-group">
