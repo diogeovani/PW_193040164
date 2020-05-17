@@ -88,7 +88,7 @@ if (isset($_POST['login'])) {
         ?>
 
         <form role="form" action="" method="post">
-          <div class="form-group">
+          <div class="form-group"><label for="username">Username</label>
             <input type="text" name="username" class="form-control" placeholder="Username" required autofocus />
           </div>
           <div class="form-group">
