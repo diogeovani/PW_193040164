@@ -14,7 +14,7 @@ require 'functions.php';
 
 $id = $_GET['id'];
 
-$monitor = query("SELECT * FROM moitor WHERE id = $id")[0];
+$monitor = query("SELECT * FROM monitor WHERE id = $id")[0];
 ?>
 
 <!DOCTYPE html>
